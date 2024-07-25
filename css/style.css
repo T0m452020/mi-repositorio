@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    border: 1px solid red;
+}
+main .background img{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+}
+.header .nav-links{
+    list-style: none;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #000000;
+    text-decoration: none;
+}
+.header .btn button a{
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+}
+.pd img{
+    width: 604px;
+    height: 318px;
+    object-fit: contain;
+}
+.social-icons a img{
+    height: 48px;
+    width: 48px;
+    object-fit: contain;
+}
+body{
+    background-image: url(../assets/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pd p{
+    color: white;
+}
+h1{
+    color: whitex;
+}
+h2{
+    color: white;
+}
+h4{
+    color: white;
+}
